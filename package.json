@@ -4,6 +4,8 @@
   "description": "Typescript Boilerplate project that can be used as starter-template",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node ./src",
+    "watch": "ts-node-dev --respawn ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
