@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/webceyhan/ts-boilerplate/issues"
   },
-  "homepage": "https://github.com/webceyhan/ts-boilerplate#readme"
+  "homepage": "https://github.com/webceyhan/ts-boilerplate#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.10",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
 }
