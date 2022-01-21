@@ -1,0 +1,20 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript Boilerplate project that can be used as starter-template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webceyhan/ts-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webceyhan/ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/webceyhan/ts-boilerplate#readme"
+}
