@@ -1,5 +1,7 @@
 # TypeScript Boilerplate
 
+[![Test and build](https://github.com/webceyhan/ts-boilerplate/actions/workflows/test-and-build.yml/badge.svg)](https://github.com/webceyhan/ts-boilerplate/actions/workflows/test-and-build.yml)
+
 TypeScript project boilerplate with modern tooling, for Node.js programs.
 
 - [TypeScript 4](https://www.typescriptlang.org)
