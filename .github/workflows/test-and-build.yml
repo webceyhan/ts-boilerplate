@@ -1,0 +1,15 @@
+name: Test and build
+
+on: [push, pull_request]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+
+      - run: npm run install
+      - run: npm run test
+      - run: npm run build
