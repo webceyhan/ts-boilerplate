@@ -2,10 +2,11 @@
   "name": "ts-boilerplate",
   "version": "1.0.0",
   "description": "Typescript Boilerplate project that can be used as starter-template",
-  "main": "index.js",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
   "scripts": {
-    "start": "ts-node ./src",
-    "watch": "ts-node-dev --respawn ./src",
+    "start": "ts-node src/main.ts",
+    "watch": "ts-node-dev --respawn src/main.ts",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
