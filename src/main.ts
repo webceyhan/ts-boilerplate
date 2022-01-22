@@ -1,3 +1,5 @@
+export const MESSAGE = 'Hello World';
+
 export function run() {
-    console.log('hello world');
+    console.log(MESSAGE);
 }
