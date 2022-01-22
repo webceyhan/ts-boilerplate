@@ -2,11 +2,12 @@
 
 TypeScript project boilerplate with modern tooling, for Node.js programs.
 
-- [TypeScript 4](https://www.typescriptlang.org/)
-- Developing with ts-node-dev
-- Testing with [Jest](https://jestjs.io/docs/getting-started) (and [ts-jest](https://www.npmjs.com/package/ts-jest))
-- Linting with ESLint ([typescript-eslint](https://github.com/typescript-eslint/typescript-eslint))
-- Building with Typescript Compiler (tsc)
+- [TypeScript 4](https://www.typescriptlang.org)
+- Running with [ts-node](https://typestrong.org/ts-node)
+- Developing with [ts-node-dev](https://github.com/wclr/ts-node-dev)
+- Testing with [Jest](https://jestjs.io/docs/getting-started) (using [ts-jest](https://www.npmjs.com/package/ts-jest))
+- Linting with [ESLint](https://eslint.org) ([typescript-eslint](https://github.com/typescript-eslint/typescript-eslint))
+- Building with [Typescript Compiler](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
 ## Getting Started
 
@@ -24,17 +25,17 @@ npm run install
 
 # Now you can run various npm run commands:
 npm start
-npm run watch
+npm run dev
 npm run test
 npm run build
 ...
 ```
-> Take a look at all the scripts in [`package.json`](https://github.com/webceyhan/ts-boilerplate/blob/master/package.json)
+> Take a look at all the available scripts in [`package.json`](https://github.com/webceyhan/ts-boilerplate/blob/master/package.json)
 
 
 ## Development
 
-Run `npm run watch` to watch all file changes in the /src folder
+Run `npm run dev` to watch all file changes in the /src folder
 and restart the program instanly during the development.
 
 ## Tests
