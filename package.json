@@ -12,15 +12,14 @@
     "lint": "eslint src/ --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
     "test:watch": "jest --watch"
-
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webceyhan/ts-boilerplate.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Evren Ceyhan",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/webceyhan/ts-boilerplate/issues"
   },
