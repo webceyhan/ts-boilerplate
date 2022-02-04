@@ -7,8 +7,9 @@
 <!-- Description -->
 
 TypeScript project boilerplate with modern tooling, for Node.js programs.
-It contains src/main.ts as starting point for your application
-and asrc/main.test.ts as sample testing suit for your entry point.
+
+It contains `src/main.ts` file as starting point for your application
+and `src/main.test.ts` file as sample testing suit for your entry point.
 
 [Report Issue](https://github.com/webceyhan/ts-boilerplate/issues) |
 [Request Feature](https://github.com/webceyhan/ts-boilerplate/pulls) |
@@ -66,8 +67,6 @@ npm install npm@latest -g
 You can use following commands to do various task with the project.
 
 ```sh
-# Edit `package.json` and `tsconfig.json` to your liking
-...
 npm start           # run production app
 npm run dev         # start ts-node in watch mode
 npm run test        # test the application
