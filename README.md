@@ -1,3 +1,4 @@
+[![CodeQL](https://github.com/webceyhan/ts-boilerplate/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/webceyhan/ts-boilerplate/actions/workflows/codeql-analysis.yml)
 [![Test and build](https://github.com/webceyhan/ts-boilerplate/actions/workflows/test-and-build.yml/badge.svg)](https://github.com/webceyhan/ts-boilerplate/actions/workflows/test-and-build.yml)
 
 <!-- Title -->
