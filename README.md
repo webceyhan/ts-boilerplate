@@ -103,8 +103,7 @@ Compile all sources from `/src` into `/dist` folder using Typescript Compiler.
 npm run build
 ```
 
-Before each build, the contents will be cleaned automatically,
-but you can also manually clean /dist folder by running..
+Before each build, `/dist` folder contents will be cleaned automatically, but you can also clean it manually.
 
 ```sh
 npm run clean
